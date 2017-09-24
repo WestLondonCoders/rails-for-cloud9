@@ -12,3 +12,23 @@
  *
  *= require_self
  */
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.grid {
+  width: 80%;
+  margin: 30vh auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid__item {
+  border: solid 1px black;
+  padding: 20px;
+  text-align: center;
+}
